@@ -15,9 +15,9 @@ datasource db {
 }
 
 model Students {
-  kode    String   @id @unique
-  nama    String
-  alamat  String
-  tgl     DateTime
-  jurusan String
+  kode_siswa    String   @id @unique
+  nama_siswa    String
+  alamat_siswa  String
+  tanggal_siswa DateTime
+  jurusan_siswa String
 }
